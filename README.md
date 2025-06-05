@@ -23,7 +23,5 @@ A scaffold for frontend projects using **React** and **Vite**. This setup is bas
 
 ## Other
 
-- See `public/manifest` for PWA configuration.  
-    [Learn more about web app manifests.](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest)
 
 public/manifest -> Read more about how to populate it here https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest
