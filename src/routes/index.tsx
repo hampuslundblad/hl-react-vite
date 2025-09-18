@@ -1,13 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router"
+import { useQuery } from "@tanstack/react-query"
 import { Button } from "@/components/ui/button"
-import { usePosts } from "@/hooks/usePosts"
+import { postQueryOptions } from "@/queries/post"
 
 export const Route = createFileRoute("/")({
   component: App,
 })
 
 function App() {
-  const postQuery = usePosts("1")
+  const postQuery = useQuery(postQueryOptions("1"))
   console.log("postQuery", postQuery)
   // postQuery.data is the data returned from the query
   return (
